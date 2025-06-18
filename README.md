@@ -3,6 +3,7 @@
  - Sistema para administrar al personal de la Policia de Tres de Febrero
 
 // REQUERIMIENTOS
+---------------------------------------
  - Clase Policia:
  - Nombre
  - Apellido
@@ -10,12 +11,14 @@
  - Escuadron
  - Arma Asignada
 
+---------------------------------------
 - Clase Escuadron:
 - Nombre del escuadron
 - Comisaria a la que pertenecen
 - Grupo de Policias
 - Armas que poseen
 
+---------------------------------------
 - Clase Arma:
 - Municiones
 - Alcance en metros
@@ -23,18 +26,22 @@
 - Calibre
 - Estado ("Nueva", "En Mantenimiento", "En Uso")
 
+---------------------------------------
 - Dos variantes de armas: armas cortas y largas
 
+---------------------------------------
 - Clase ArmaCorta:
 - Hereda los atributos de clase Arma
 - SiesAutomatica
 
+---------------------------------------
 - Clase ArmaLarga:
 - Hereda los atributos de clase Arma
 - tieneSelloRENAR
 - descripcionUso
 - Nivel
 
+---------------------------------------
 - El sistema debe contar con las siguientes funcionalidades:
 
 - De cualquier arma se debe poder saber si está en condiciones para poder
